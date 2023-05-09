@@ -1,9 +1,16 @@
 p {
     color: green;
-  }
+}
+
+body{
+    background-color: #E9D5DA;
+}
+
   
   #titlebar {
+    background-color: #827397;
     border: 1px solid black;
+    width: 100%;
    
   }
   
@@ -25,7 +32,21 @@ p {
     border: 1px solid black;
   }
   
-  #torcida {
-    color: green;
+  #blocks {
+    width: 100%;
+    background-color: #827397;
+    border-radius: 2%;
+    border: 0.1rem solid black; 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
   }
-  
+
+  .square-block {
+    height: 5%;
+    width: 5%;
+    background-color: #363062;
+  }
+
