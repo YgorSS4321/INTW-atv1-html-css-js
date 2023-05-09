@@ -1,0 +1,31 @@
+p {
+    color: green;
+  }
+  
+  #titlebar {
+    border: 1px solid black;
+   
+  }
+  
+  #titlebar:hover{
+    background-color: black;
+  }
+  
+  #titlebar h1:first-line{
+    color: white;
+  }
+  
+  .novaDiv {
+    display: flex;
+    flex-direction: row;
+   
+  }
+  
+  .novaDiv > h2, .novaDiv > h3{
+    border: 1px solid black;
+  }
+  
+  #torcida {
+    color: green;
+  }
+  
