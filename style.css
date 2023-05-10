@@ -1,52 +1,268 @@
 p {
-    color: green;
+  color: green;
 }
 
 body{
-    background-color: #E9D5DA;
+  background-color: #E9D5DA;
 }
 
-  
-  #titlebar {
-    background-color: #827397;
-    border: 1px solid black;
-    width: 100%;
-   
-  }
-  
-  #titlebar:hover{
-    background-color: black;
-  }
-  
-  #titlebar h1:first-line{
-    color: white;
-  }
-  
-  .novaDiv {
-    display: flex;
-    flex-direction: row;
-   
-  }
-  
-  .novaDiv > h2, .novaDiv > h3{
-    border: 1px solid black;
-  }
-  
-  #blocks {
-    width: 100%;
-    background-color: #827397;
-    border-radius: 2%;
-    border: 0.1rem solid black; 
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
+nav{
+border-bottom: 0.1rem solid black;
+width: 90%;
+padding-right: 10%;
 
-  }
+}
 
-  .square-block {
-    height: 5%;
-    width: 5%;
-    background-color: #363062;
-  }
+nav ul li a img {
+height: 30px;
+}
+
+nav ul {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+
+
+}
+
+nav ul li {
+
+list-style: none;
+border: 0.1rem solid black;
+padding-inline: 1.5rem;
+display: flex;
+align-items: center;
+}
+nav ul li:hover{
+background-color: black;
+color: white;
+
+}
+nav ul li a p{
+cursor: pointer;
+color: black;
+}
+nav ul li:hover a p{
+color: white;
+
+}
+
+nav ul li > a:link {
+
+text-decoration: none;
+color: black;
+
+}
+nav ul li > a:visited {
+
+text-decoration: underline;
+color: black;
+
+}
+
+#titlebar {
+  background-color: #827397;
+  border: 1px solid black;
+  width: 100%;
+ 
+}
+
+#titlebar:hover{
+  background-color: black;
+}
+
+#titlebar h1{
+text-indent: 2.2rem;
+}
+#titlebar h1:first-line{
+  color: #E9D5DA;
+}
+
+
+#main-image-page {
+background-color: black;
+
+width: 100%;
+height: 30rem;
+}
+#main-image-page > div{
+padding-top: 2rem;
+background-image: url(https://media.istockphoto.com/id/821952658/pt/foto/barista-make-coffee-cup-latte-art.jpg?s=1024x1024&w=is&k=20&c=RygColyXkZl3d5q0cq95QweTJrxAMs2xo4LuPWflyu8=);
+opacity: 0.2;
+width: 100%;
+height: 30rem;
+overflow: hide;
+}
+#main-image-page > div > h3 {
+
+color: white;
+font-size: 3rem;
+font-weight: 400;
+text-align: justify;
+text-indent: 2rem;
+font-weight: 580;
+
+}
+#main-image-page > div > h3 > span {
+font-variant: small-caps;
+
+}
+
+#main-image-page > div > p {
+text-indent: 5rem;
+color: white;
+text-transform: capitalize;
+font-variant: small-caps;
+font-size: 0.8rem;
+
+}
+#first-bar {
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+padding-inline: 10rem;
+padding-block: 1rem;
+border: 1px solid black;
+ 
+}
+.main-product{
+border: 1px solid black;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+padding-inline: 1.5rem;
+padding-top: 0.5rem;
+
+
+}
+
+.main-product img{
+height: 2rem;
+width: 2rem;
+
+}
+.main-product p{
+color: black;
+text-transform: capitalize;
+}
+
+.main-product:hover {
+background-color: #827397;
+color: #4D4C7D;
+box-shadow: 0.6rem 0.4rem black;
+translate: -0.6rem;
+cursor: pointer;
+
+}
+.main-product:hover p{
+color: #363062;
+text-decoration: underline;
+
+}
+
+
+
+
+#blocks {
+  width: 100%;
+  padding-top: 0.9rem;
+  background-color: #827397;
+  border-radius: 0%;
+  border: 0.1rem solid #363062; 
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+
+.square-block {
+  height: 80px;
+  width: 200px;
+  background-color: #363062;
+  margin-bottom: 25px;
+  display: flex;
+  align-items: center;
+}
+.square-block p{
+color:#827397;
+font-weight: 800;
+width: 100%;
+text-align: center;
+}
+
+.last-bar{
+width:100%;
+}
+.last-bar > h3{
+text-indent: 2rem;
+text-transform: capitalize;
+color: #363062;
+}
+.last-bar > h3 > span{
+text-transform: lowercase;
+}
+
+#grid-l1{
+display: flex;
+flex-direction: row;
+width: 100%;
+background-color: #4D4C7D;
+
+}
+#grid1-l1-images{
+
+padding-block: 3rem;
+padding-inline: 2.5rem;
+width: 80%;
+height: 100%;
+
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+gap: 2rem;
+
+}
+div.img-of-know-us{
+border: 0.1rem solid white;
+height: 10rem;
+}
+div.img-of-know-us img{
+height: 10rem;
+width: 10rem;
+
+ filter: invert(1) sepia(100%);
+}
+div#some-large-text {
+padding-top: 1.5rem;
+padding-inline: 1.5rem;
+background-color: #363062;
+color: #E9D5DA;
+width: 20%;
+
+}
+
+div#some-large-text p{
+color: #E9D5DA;
+
+}
+
+footer {
+height: 1rem;
+border-top: 0.1rem solid white;
+padding-inline: 3rem;
+background-color: black;
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+align-items: center;
+
+
+}
+footer p{
+color: #E9D5DA;
+}
+
+
 
