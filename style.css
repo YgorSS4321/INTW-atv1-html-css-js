@@ -4,6 +4,7 @@ p {
 
 body{
   background-color: #E9D5DA;
+  padding: 0%;
 }
 
 nav{
@@ -84,6 +85,7 @@ background-color: black;
 
 width: 100%;
 height: 30rem;
+overflow: hidden;
 }
 #main-image-page > div{
 padding-top: 2rem;
@@ -91,7 +93,7 @@ background-image: url(https://media.istockphoto.com/id/821952658/pt/foto/barista
 opacity: 0.2;
 width: 100%;
 height: 30rem;
-overflow: hide;
+overflow: hidden;
 }
 #main-image-page > div > h3 {
 
@@ -215,7 +217,7 @@ background-color: #4D4C7D;
 
 padding-block: 3rem;
 padding-inline: 2.5rem;
-width: 80%;
+width: 100%;
 height: 100%;
 
 display: flex;
@@ -264,5 +266,40 @@ footer p{
 color: #E9D5DA;
 }
 
+#CoffeeCardapio{
+  background-color: brown;
+  display: flex;
+  justify-content: space-between;
+  padding-inline: 3%;
+  padding-block: 1%;
+  flex-wrap: wrap;
+}
 
+.coffeePrice {
+  border: 0.1rem solid black;
+  padding-bottom: 0.6rem;
+  width: 30%;
+  display: flex;
+  flex-direction: column;
+  
+  align-items: center;
+  
+  background-color: grey;
+  
+  margin-bottom: 0.5%;
+}
 
+.coffeePrice p {
+  color: white;
+  
+}
+.coffeePrice p:before{
+  content: "$";
+}
+
+.coffeePrice button{
+  width: 10rem;
+  color: white;
+  background-color: green;
+  
+}
